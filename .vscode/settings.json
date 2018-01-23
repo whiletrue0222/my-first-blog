@@ -1,0 +1,29 @@
+{
+    "python.pythonPath": "${workspaceRoot}\\venv\\Scripts\\python.exe",
+    "python.unitTest.unittestArgs": [
+        "-v",
+        "-s",
+        "tests",
+        "-t",
+        "tests",
+        "-p",
+        "test_*.py"
+    ],
+    "python.unitTest.unittestEnabled": true,
+    "python.venvPath": "venv",
+    
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "terminal.integrated.shellArgs.windows": [
+        "powershell -noexit -command \"& {.\\venv\\Scripts\\activate.ps1}\""
+    ],
+
+    "shellLauncher.shells.windows": [
+        {
+            "shell": "C:\\Program Files\\Git\\bin\\bash.exe",
+            "label": "Git bash",
+            "args": [
+                "--init-file", ".bashrc"
+            ]
+        }
+    ],
+}
